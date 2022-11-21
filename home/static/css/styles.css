@@ -1,25 +1,9 @@
-.centrar {
-    text-align: center;
-
-}
-
 .rosado {
     font-weight: bold;
     color: #e8bffd;
 }
 
-.dividir {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    height: 450px;
-    width: 1500px;
-    margin-top: -150px;
-    margin-bottom: -150px;
-}
-
-.btn {
-
+.boton {
     flex: 1 1 auto;
     margin: 10px;
     padding: 20px 30px;
@@ -37,7 +21,7 @@
     font-weight: 500;
 }
 
-.btn:hover {
+.boton:hover {
     background-position: top center;
     /* change the direction of the change here */
     box-shadow: none;
@@ -49,8 +33,8 @@
 }
 
 .fotoMuestra {
-    width: 400px;
-    height: 800px;
+    width: 380px;
+    height: 720px;
 }
 
 
@@ -59,11 +43,127 @@ html {
     height: 100%;
     margin: 0;
     padding: 0;
+
 }
 
-.header:before {
-    content: "";
+.qr {
+    width: 200px;
+    height: 200px;
+    margin-bottom: 10px;
+}
+
+.link {
+    text-decoration: none;
+    color: #e8bffd;
+    margin-bottom: 30px;
+}
+
+.colorFondo {
+    background-color: #121212;
+}
+
+.dividir {
     display: block;
-    background: url(../img/carreteraLogo.png);
-    min-height: 100vh;
+    margin-left: auto;
+    margin-right: auto;
+    height: 450px;
+    width: 1500px;
+    margin-top: -190px;
+    margin-bottom: -200px;
+}
+
+p {
+    color: azure;
+    text-align: justify;
+}
+
+.fondo {
+    border: 1px solid black;
+    padding: 25px;
+    background: url(../img/carretera.jpg);
+    background-repeat: repeat;
+    background-size: cover;
+    /* padding-right: 100px; */
+}
+
+@media (max-width: 1400px) {
+    .dividir {
+        margin-top: -150px;
+        margin-bottom: -150px;
+    }
+
+
+    .fotoMuestra {
+        width: 300px;
+        height: 600px;
+    }
+
+}
+
+@media (max-width: 1200px) {
+    .dividir {
+        margin-top: -130px;
+        margin-bottom: -130px;
+    }
+}
+
+@media (max-width: 1000px) {
+    .dividir {
+        margin-top: -120px;
+        margin-bottom: -120px;
+    }
+    .fotoMuestra {
+        width: 250px;
+        height: 500px;
+    }
+}
+
+
+@media (max-width: 992px) {
+    .dividir {
+        margin-top: -110px;
+        margin-bottom: -110px;
+    }
+
+    .fotoMuestra {
+        width: 220px;
+        height: 440px;
+    }
+
+}
+
+
+@media (max-width: 800px) {
+    .dividir {
+        margin-top: -100px;
+        margin-bottom: -100px;
+    }
+
+
+    .fotoMuestra {
+        width: 200px;
+        height: 400px;
+        margin-bottom: 10px;
+    }
+
+}
+
+@media (max-width: 765px) {
+    .dividir {
+        margin-top: -80px;
+        margin-bottom: -80px;
+    }
+}
+
+@media (max-width: 590pc) {
+    .centrar {
+        text-align: center;
+    }
+}
+
+@media (max-width: 500px) {
+    .dividir {
+        margin-top: -50px;
+        margin-bottom: -50px;
+    }
 }
